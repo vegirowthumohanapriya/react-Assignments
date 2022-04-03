@@ -1,67 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 .container{
-  width: 100%;
-  height: 100%;
-  /* border: 3px solid palevioletred; */
-  margin: 0px auto;
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
 }
-img {
-  width: 200px;
-  margin-top: 15px;
+.box{
+  border:3px solid green;
+  /* border-radius: 20px; */
+  height:90vh;
+  width:30vw;
+  margin-left:450px;
+  box-shadow: 5px 10px #888888;
 }
-.image {
+img{
+  height:35vh;
+  width:25vw;
+  margin-left: 30px;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+.content{
+  margin-left: 30px;
+}
+h1{
+  color:dodgerblue;
+  font-size:40px;
+}
+p{
+  color:darkgray;
+  margin-top: 25px;
+}
+.App {
   text-align: center;
 }
-h1 {
-  margin-right: 130px;
-  color: deepskyblue;
-  font-size: xx-large;
-  margin-top: 10px;
-  margin-bottom: 0px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-p.p1 {
-  margin-bottom: 5px;
-  margin-right: 135px;
-  margin-top: 12px;
-  color:#bbb;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-h3.city {
-  margin-top: 5px;
-  margin-right: 110px;
-  margin-bottom: 10px;
+.App-header {
+  background-color: #282C34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-p.p2 {
-  margin-right: 105px;
-  margin-bottom: 10px;
-  color: #bbb;
-  
+.App-link {
+  color: #61DAFB;
 }
-h3.blood {
-  margin-top: 0px;
-  margin-right: 165px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-p.p3 {
-  margin-right: 165px;
-  margin-bottom: 5px;
-  color: #bbb;
-}
-h3.age {
-  margin-right: 169px;
-  margin-top: 0px;
-}
-.card{
-  border: 3px solid pink;
-}
-
-
-
-
-
 
