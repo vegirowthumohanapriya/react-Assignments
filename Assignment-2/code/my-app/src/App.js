@@ -5,7 +5,7 @@ import './index';
 
 
 function App(props) {
- const {employee} =props;
+ const {employee} = props;
     
  const { name, location, age, bloodGroup, profileImg } = props.employee;
  return (
@@ -14,7 +14,7 @@ function App(props) {
        /* Start your React code here */
        <div className="box">
          <div>
-           <img src={profileImg}  alt="profile-image" ></img>
+           <img src = {profileImg} alt= "profile"></img>
          </div>
          <div className="content">
            <h1>{name}</h1>
