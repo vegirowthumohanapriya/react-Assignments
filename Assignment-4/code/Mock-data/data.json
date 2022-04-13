@@ -1,0 +1,28 @@
+{
+    "user":[
+   {
+        "name":"Siva",
+        "location":"Bengaluru",
+        "likes":64,
+        "description": "Kick start your career",
+        "PostImage": "firstpost.png",
+        "date":"09-apr-2020"
+   },
+   {
+        "name":"Neeraj",
+        "location":"Pune",
+        "likes":30,
+        "description": "Sample Description",
+        "PostImage": "secondpost.png",
+        "date":"10-apr-2021"
+    },
+    {
+        "name":"Rahul",
+        "location":"Hyderabad",
+        "likes":30,
+        "description": "Sample Description for Post",
+        "PostImage": "thirdpost.png",
+        "date":"10-apr-2022"
+    }
+    ]
+    }
